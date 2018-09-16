@@ -1,8 +1,8 @@
 #include "std_lib_facilities.h"
 int main()
 {
-cout<<"Enter the name of the person you want to write to:\n";
-string first_name;
+cout<<"Enter the name of the person you want to write to:\n";          //1.részben kiíratomm a kérdéseket és bekérem az
+string first_name;                                                     //adatokat
 cin>>first_name;
 cout<<"Ener the name of an another friend.\n";
 string friend_name;
@@ -14,7 +14,7 @@ cout<<"Enter the age of the recipient:\n";
 int age;
 cin>>age;
 
-if(age>0&&age<110)
+if(age>0&&age<110)                               // ha a beírt kor megfelel a kritériumnak akkor a program kiírja a levelet
 
 {
 cout<<"\nDear "<<first_name<<",\n\nHow are you?I am fine.I miss You.\nHave you seen "<<friend_name<<" lately?\n";
@@ -33,7 +33,7 @@ cout<<"Yours sincerely,\n\n\n";
 
 }
 
-else
+else                                      //ha nem akkor ezt az üzenetet írja ki
 {
 cout<<"error(you're kidding)\n";
 
