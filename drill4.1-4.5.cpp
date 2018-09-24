@@ -3,7 +3,7 @@ int main()
 {
 double szam1;
 double szam2;
-char a;
+
 while(cin>>szam1&&cin>>szam2)
 {
 if(szam1<szam2)
