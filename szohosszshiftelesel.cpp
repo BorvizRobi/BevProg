@@ -1,14 +1,14 @@
-#include "std_lib_facilities.h"
+#include <stdio.h>
+
 int main()
 {
-int a=1;
+
+int szo=1;
 int lepes=1;
-while(a<<=1)
-{
-++lepes;
-cout<<a<<"\n";
-}
 
-cout<<lepes<<"\n";
-}
+while(szo<<=1)
+ ++lepes;
 
+printf("%i\n",lepes);
+
+}
